@@ -103,6 +103,7 @@ function Projects() {
             >
               {projects.map((project) => (
                 <ProjectCard
+                  key={project.name}
                   name={project.name}
                   description={project.description}
                   img={project.img.src}
@@ -124,6 +125,7 @@ function Projects() {
                 .filter((obj) => obj.category === "website")
                 .map((project) => (
                   <ProjectCard
+                    key={project.name}
                     name={project.name}
                     description={project.description}
                     img={project.img.src}
@@ -145,6 +147,7 @@ function Projects() {
                 .filter((obj) => obj.category === "hybrid")
                 .map((project) => (
                   <ProjectCard
+                    key={project.name}
                     name={project.name}
                     description={project.description}
                     img={project.img.src}

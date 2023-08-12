@@ -12,11 +12,10 @@ import {
 import Link from "next/link";
 import HeroDark from "./assets/HeroDark.gif";
 import { useSelector } from "react-redux";
- 
-import 'animate.css/animate.css'
+
+import "animate.css/animate.css";
 
 export default function Hero() {
-  console.log(useSelector((state: any) => state.dark.value));
   let mode = useSelector((state: any) => state.dark.value);
   return (
     <Container maxW={"5xl"}>

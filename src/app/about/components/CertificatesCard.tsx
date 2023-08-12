@@ -47,6 +47,7 @@ function CertificatesCard() {
     <Box maxW={"800px"} alignItems="center" mx={"auto"}>
       {certificates.map((certificate) => (
         <Card
+          key={certificate.name}
           direction={{ base: "column", sm: "row" }}
           overflow="hidden"
           variant="outline"
