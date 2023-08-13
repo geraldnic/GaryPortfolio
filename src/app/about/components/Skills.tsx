@@ -48,6 +48,7 @@ function Skills() {
         >
           <Image
             src={tech.img.src}
+            alt={tech.name}
             textAlign="center"
             align="center"
             alignItems="center"

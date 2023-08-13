@@ -5,7 +5,7 @@ import BioCard from "./components/BioCard";
 import Skills from "./components/Skills";
 import CertificatesCard from "./components/CertificatesCard";
 
-function about() {
+function About() {
   return (
     <div>
       <Box>
@@ -53,4 +53,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

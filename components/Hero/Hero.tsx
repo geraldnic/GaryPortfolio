@@ -40,7 +40,7 @@ export default function Hero() {
             {"Hello," + " "}
           </Text>
           <Text as={"span"} textShadow="0px 3px 2px rgba(0, 0, 0, 0.50)">
-            I'm Gerald
+            I&apos;m Gerald
           </Text>
         </Heading>
         <Text maxW={"3xl"} fontSize={"xl"}>

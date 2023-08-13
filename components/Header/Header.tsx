@@ -37,7 +37,7 @@ export default function Nav() {
           <Link href={"/"}>
             <Box mx={5}>
               <Text fontSize={"2xl"} fontWeight={"bold"}>
-                Gerald's Portfolio
+                Gerald&apos;s Portfolio
               </Text>
             </Box>
           </Link>
