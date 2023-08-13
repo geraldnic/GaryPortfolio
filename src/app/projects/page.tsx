@@ -18,6 +18,7 @@ import GaryGram from "./assets/gary-gram.jpg";
 import Getflix from "./assets/getflix.jpg";
 import JouleApp from "./assets/joule-app.jpg";
 import Nutech from "./assets/nutech-test.jpg";
+import Expenses from "./assets/remix.png";
 
 function Projects() {
   const projects = [
@@ -82,6 +83,15 @@ function Projects() {
       img: Nutech,
       site: "https://nutech-integrasi-test.vercel.app/",
       git: "https://github.com/geraldnic/NutechIntegrasiTest",
+    },
+    {
+      name: "Remix Expenses (Remix)",
+      category: "website",
+      description:
+        "Monitor and record your expenses for better financial management. You can also analyze your expenses each month so you don't have to wonder where your money is going.",
+      img: Expenses,
+      site: "https://remix-expenses-geraldnic.netlify.app/expenses/analysis",
+      git: "https://github.com/geraldnic/remix-netlify-geraldnic",
     },
   ];
   return (
