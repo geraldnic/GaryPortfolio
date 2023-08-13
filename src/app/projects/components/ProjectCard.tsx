@@ -39,7 +39,7 @@ function ProjectCard({
         />
         <Stack mt="6" spacing="3">
           <Heading size="md">{name}</Heading>
-          <Text>{description}</Text>
+          <Text maxH={"80px"} overflowY={"scroll"}>{description}</Text>
         </Stack>
       </CardBody>
       <Divider />
