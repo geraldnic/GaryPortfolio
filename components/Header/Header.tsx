@@ -29,14 +29,20 @@ export default function Nav() {
   const handleToggle = () => {
     toggleColorMode();
     dispatch(toggleDark(colorMode));
-  }
+  };
   return (
     <>
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"} maxW={"60%"} mx={"auto"}>
+        <Flex
+          h={16}
+          alignItems={"center"}
+          justifyContent={"space-between"}
+          maxW={["90%", "75%", "60%"]}
+          mx={"auto"}
+        >
           <Link href={"/"}>
             <Box mx={5}>
-              <Text fontSize={"2xl"} fontWeight={"bold"}>
+              <Text fontSize={["lg","xl","2xl"]} fontWeight={"bold"}>
                 Gerald&apos;s Portfolio
               </Text>
             </Box>

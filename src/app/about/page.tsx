@@ -9,7 +9,7 @@ function About() {
   return (
     <div>
       <Box>
-        <Box width={"70%"} mx={"auto"} pb={20}>
+        <Box width={["90%", "80%", "70%"]} mx={"auto"} pb={20}>
           <Center>
             <Heading
               pt={16}

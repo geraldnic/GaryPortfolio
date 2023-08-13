@@ -69,6 +69,7 @@ export default function Hero() {
         <Flex w={"full"}>
           {mode === "light" ? (
             <Image
+              alt="heroDark"
               mx={"auto"}
               height={{ sm: "26rem", lg: "33rem" }}
               src={HeroDark.src}
@@ -76,6 +77,7 @@ export default function Hero() {
             />
           ) : (
             <Image
+              alt="heroLight"
               mx={"auto"}
               height={{ sm: "26rem", lg: "33rem" }}
               className="animate__animated animate__bounceInLeft animate__fast"
