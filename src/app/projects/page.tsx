@@ -18,7 +18,7 @@ import GaryGram from "./assets/gary-gram.jpg";
 import Getflix from "./assets/getflix.jpg";
 import JouleApp from "./assets/joule-app.jpg";
 import Nutech from "./assets/nutech-test.jpg";
-import Expenses from "./assets/remix.png";
+import Expenses from "./assets/remix-expenses.jpg";
 
 function Projects() {
   const projects = [
@@ -95,7 +95,7 @@ function Projects() {
     },
   ];
   return (
-    <Box width={["90%","80%","70%"]} mx={"auto"} my={20}>
+    <Box width={["90%", "80%", "70%"]} mx={"auto"} my={20}>
       <Tabs isFitted colorScheme="green" variant="enclosed-colored">
         <TabList>
           <Tab>All</Tab>
@@ -105,7 +105,7 @@ function Projects() {
         <TabPanels borderX={"1px"} borderBottom={"1px"}>
           <TabPanel>
             <SimpleGrid
-              columns={[1,2,3]}
+              columns={[1, 2, 3]}
               spacing={10}
               mx={"auto"}
               alignItems={"center"}
@@ -125,7 +125,7 @@ function Projects() {
           </TabPanel>
           <TabPanel>
             <SimpleGrid
-              columns={[1,2,3]}
+              columns={[1, 2, 3]}
               spacing={10}
               mx={"auto"}
               alignItems={"center"}
@@ -147,7 +147,7 @@ function Projects() {
           </TabPanel>
           <TabPanel>
             <SimpleGrid
-              columns={[1,2,3]}
+              columns={[1, 2, 3]}
               spacing={10}
               mx={"auto"}
               alignItems={"center"}
